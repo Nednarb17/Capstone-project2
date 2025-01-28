@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "theseasons";
+  src: url(./fonts/theseasons-reg.otf);
+} 
+@font-face {
+  font-family: "tt-hoves";
+  src: url(./fonts/TT\ Hoves\ Pro\ Trial\ Regular.ttf);
+} 
+@media (max-width: 1610px) { 
+  
+  .boximg{width:100%;display: flex; justify-content: center; align-items: center; }
+  .projectgrid img{width: 200px; height: 200px; object-fit:fill ;}
+  .gridcontainer2 p{ text-align: center; font-size: 20px;}
+  
+  
+  
+}
+@media (max-width: 1050px) { html body{margin: 0; padding: 0;}
+  .projectgrid img{width: 400px; height: 200px; object-fit:fill; margin: 0; padding: 0; }
+.projectgrid{flex-direction: column; justify-content: left; align-items: center;  gap: 10px;}
+body .blackbackground{background-color:black; height: 1400px; width: 100%}
+.gridcontainer2 p{ text-align: start; font-size: rem;}
+body .gridcontainer2{display: grid; grid-template-columns: 1fr 4fr 1fr  ; grid-template-rows: 100px 100px 200px 100px 100px 300px}
+.nav .whitefont{font-size: 17px;} .nav #homegap{font-size: 17px; }
+body .header{font-size: 80px;} body .header2{font-size: 40px; }
+body .myprojects{ font-size: 70px;}
+body .resume{ font-size: 70px;  }
+
+
+}
+@media (max-width: 666px){
+  .projectgrid img{width: 200px; height: 200px; object-fit:fill; margin: 0; padding: 0; }
+  .nav .whitefont{font-size: 14px; } .nav #homegap{font-size: 14px; }
+  div .flexcontainer1{justify-content: flex-start;}
+  body .header{font-size: 60px; justify-content: flex-start;} body .header2{font-size: 30px; }
+  body .myprojects{ font-size: 50px;}
+body .resume{ font-size: 50px; }
+body .pinkbackground{background-color: #b84a79; height:1150px; width: 100%; margin: 0; padding: 0;}
+div .contactheading{  font-size: 35px;}
+.contactcontainer p{ font-size: 20px ; }
+body .lightbackground{ height: 220px;}
+body .blackbackground{background-color:black; height: 1300px; width: 100%}
+
+ }
+ @media (max-width: 360px) {div .flexcontainer1{align-items: center; justify-items: center; padding: 0; margin: 0; flex-wrap: wrap; gap: 0;}
+ div .flexcontainer1{gap: 10px;}
+ .nav #homegap{flex-grow: 0;padding: 0;margin: 0; }
+ body .header{font-size: 50px; margin: 0; padding: 0;} body .header2{font-size: 30px; padding: 0; }
+ body .myprojects{ font-size: 50px; margin: 0; padding: 0;}
+ body .gridcontainer2{display: grid; grid-template-columns: 1fr   ; grid-template-rows: 1fr}
+ body .resume{ font-size: 50px; margin: 0;padding: 0; }
+ div .buttonflex{margin:0 ; padding-left: 15px; justify-content: center; }
+ div .contactheading{  font-size: 25px; }
+ 
+
+ 
+}
+
+
+
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.nav{background-color: #262323; height:100px; width: 100%; }
+.flexcontainer1{display: flex; flex-direction: row; align-items: center; justify-content: flex-start; gap:40px;
+height: 100%; padding-right: 40px; padding-left: 75px; }
+#homegap{flex-grow: 5; color: #b84a79; padding-left: 13px; font-size: 30px; }
+.flexcontainer1 a{text-decoration: none; color: white;}
+#homegap a{text-decoration: none; color: #b84a79;}
+
+
+.whitefont{color: white; font-size: 25px; font-family: "tt-hoves", serif; }
+.header{ color: white; font-size: 110px; font-family: "theseasons", sans-serif; padding-left: 80px; margin: 0; text-align: left;}
+.header2{color: white; font-size: 65px; font-weight: 200; font-family: "tt-hoves", serif; padding-left: 90px; padding-top: 40px; text-align: left;}
+
+.funnel-sans-one {
+  font-family: "Funnel Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+  .heroimg{ background-image: url(./Images/bornedit1.jpg); 
+   background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    
+  }
+  .herocontainer{display: flex; flex-direction: row; align-items: flex-start; justify-content: space-evenly
+       ; width: 100vh ; padding-top: 70px;  }
+
+    .blackbackground{background-color:black; height: 950px; width: 100%}
+    .projectflex{ display:flex ; width: 100%; justify-content: flex-start;}
+    .myprojects{color: white; font-size: 100px; font-family: "theseasons", sans-serif; padding-left: 70px;}
+    .projectgrid{display: flex; }
+    .boximg{ width: 60%; display: flex; justify-content: space-around; align-items: center; margin: 0; padding: 0;}
+
+    .imgresize{height: 300px; width: 400px; border-radius: 30px; padding: 0; margin: 0; }
+
+    .resume{color: white; font-size: 75px; font-family: "theseasons", sans-serif; }
+    .resumeflex{ display:flex ; width: 88%; justify-content: flex-end; align-items: center;  height: 150px; margin-left:35px ; margin-top: 40px;}
+    .buttonflex{ display:flex ; width: 60%; justify-content: flex-end; margin-left: 0px; }
+    .resume{padding-right: 200px;}
+    .bottonp{ }
+    .resumebutton{background-color: #ca7b90;font-family: "theseasons", sans-serif;
+      border: none;
+      color: black;
+      padding: 5px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 25px;
+      cursor: pointer; font-weight: 600;
+      border-radius: 5%; }
+
+      .pinkbackground{background-color: #b84a79; height:1000px; width: 100%; margin: 0; padding: 0;}
+      .gridcontainer2{display: grid; grid-template-columns: 1fr 1fr 1fr  ; grid-template-rows: 100px 100px 200px 100px 100px 300px ; grid-auto-columns: auto; grid-auto-rows: none;}
+      .branden{ width: 200px; height: 300px; border-radius: 90%; }
+      .brandenplacement{ grid-row: 2/4; grid-column: 1/4; }
+      .brandencenter{display: grid; justify-content: center; align-content: center; }
+      .brandentext{text-align: center; text-align: left; margin-bottom: 0; padding:0;}
+      .brandentextplacement{display: grid; grid-row: 4/6 ; grid-column: 2/3;}
+      .aboutme{color: black; font-size: 30px; font-weight: 200; font-family: "tt-hoves",serif;  font-weight: 800;}
+      hr {border: 1px double black; width: 97%; margin-right: 100px; }
+
+      .lightbackground{background-color: #ca7b90; height: 260px; width: 100%; margin: 0; padding:0;}
+      .contactheading{ color: black; font-size: 60px; font-family: "theseasons", sans-serif; margin-right: 0px ; }  
+      .contactcontainer{display: flex; flex-direction: column; align-items: center; height: 100%;}
+      .contactposition{display: flex; justify-content: center;  padding-right: 0px; padding-bottom: 15px; margin-bottom: 0;}
+      .pcontact{color: white; font-weight: 600; margin-left: 30px; padding: 0; margin-top: 0; margin-bottom: 0; }
+      
+      .contactmesize{color:black ; font-size: 30px; font-family: "theseasons", sans-serif ; 
+      display: flex; justify-content: center; padding-top: 10px; margin-right: 10px; margin-bottom: 0;}  
+
+      .footerflex{display: flex; }
+      .footerbackground{background-color: black; height: 200px; width: 100%; padding: 0; margin-top: 0; margin-bottom: 0;}
+      footer p{color: white; padding-top: 0px ; margin-bottom: 0; font-size: 15px;}
+      .instagram{height: 50px; width: 50px; }
+      .discord{height: 50px; width: 50px; }
+      .email{height: 50px; width: 50px; }
+      .iconalign{display: flex; justify-content: center; align-items: flex-start; gap: 50px; margin-top: 30px;}
+      #footeralign{display: flex; justify-content: center; align-items: center; width: 200px; margin:0   ;}
+      
+
+
+ 
+
+    
+    
+
+  
+
+
